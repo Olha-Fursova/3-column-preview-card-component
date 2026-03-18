@@ -1,0 +1,14 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --grey: #f2f2f2;
+  --green-dark: #004140;
+  --green-light: #19B89D;
+  --cyan-dark: #006971;
+  --cyan-light: #26B5C0;
+  --gold-dark: #E28625;
+  --gold-light: #FFD473;
+
+  --main-font: "Big Shoulders", sans-serif;
+  --sub-font: "Lexend Deca", sans-serif;
+}
