@@ -58,7 +58,7 @@
 
 /* Tablet */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48rem) {
   .section {
     min-height: 39.1rem;
     padding: 5rem 8rem;
@@ -67,7 +67,7 @@
 
 /* Desktop */
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 90rem) {
   .main {
     max-width: 92.1rem;
     display: grid;
