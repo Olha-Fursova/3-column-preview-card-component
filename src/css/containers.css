@@ -1,6 +1,6 @@
 .main {
   width: 100%;
-  max-width: 608px;
+  max-width: 60.8rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,26 +12,26 @@
 }
 
 .section {
-  height: 442px;
+  height: 44.2rem;
   display: flex;
   flex-direction: column;
   align-items: start;
   justify-content: space-between;
-  gap: 32px;
-  padding: 48px;
+  gap: 3.2rem;
+  padding: 4.8rem;
 }
 
 .buttom-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 24px;
+  gap: 2.4rem;
 }
 
 .text-container {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 2.4rem;
 }
 
 .sedan-section {
@@ -47,8 +47,8 @@
 }
 
 .image-part {
-  width: 64px;
-  height: 40px;
+  width: 6.4rem;
+  height: 4rem;
 
   position: relative;
   display: flex;
@@ -60,8 +60,8 @@
 
 @media screen and (min-width: 768px) {
   .section {
-    height: 391px;
-    padding: 50px 80px;
+    height: 39.1rem;
+    padding: 5rem 8rem;
   }
 }
 
@@ -69,19 +69,19 @@
 
 @media screen and (min-width: 1440px) {
   .main {
-    max-width: 921px;
+    max-width: 92.1rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
 
   .section {
-    height: 500px;
-    padding: 47.5px;
+    height: 50rem;
+    padding: 4.75rem;
     justify-content: center;
-    gap: 40px;
+    gap: 4rem;
   }
 
   .buttom-container {
-    gap: 80px;
+    gap: 8rem;
   }
 }

@@ -15,11 +15,21 @@
     <link rel="stylesheet" href="./src/css/styles.css" />
   </head>
   <body>
+    <header class="header">
+      <nav class="nav">
+        <h1 class="cta-heading">Visit my Portfolio Web-site</h1>
+        <a class="site-link btn-more" href="https://solvixcode.com/" target="__blank">SolvixCode</a>
+      </nav>
+    </header>
     <main class="main">
       <section class="section sedan-section">
         <div class="image-part">
-          <figure class="circle gold"></figure>
-          <svg class="main-icon sedan">
+          <figure
+            class="circle gold"
+            aria-hidden="true"
+            focusable="false"
+          ></figure>
+          <svg class="main-icon sedan" role="img" aria-label="Sedan icon">
             <use href="/public/img/icons.svg#icon-sedan" />
           </svg>
         </div>
@@ -31,7 +41,12 @@
               Ideal for cruising in the city or on your next road trip.
             </p>
           </div>
-          <button class="btn-more sedan" type="button" name="learn-more">
+          <button
+            class="btn-more sedan"
+            type="button"
+            name="learn-more"
+            aria-label="Learn more about Sedans"
+          >
             Learn More
           </button>
         </div>
@@ -39,8 +54,12 @@
 
       <section class="section suv-section">
         <div class="image-part">
-          <figure class="circle cyan"></figure>
-          <svg class="main-icon suv">
+          <figure
+            class="circle cyan"
+            aria-hidden="true"
+            focusable="false"
+          ></figure>
+          <svg class="main-icon suv" role="img" aria-label="SUV icon">
             <use href="/public/img/icons.svg#icon-suv" />
           </svg>
         </div>
@@ -52,7 +71,12 @@
               Perfect for your next family vacation and off-road adventures.
             </p>
           </div>
-          <button class="btn-more suv" type="button" name="learn-more">
+          <button
+            class="btn-more suv"
+            type="button"
+            name="learn-more"
+            aria-label="Learn more about SUV"
+          >
             Learn More
           </button>
         </div>
@@ -60,8 +84,12 @@
 
       <section class="section luxury-section">
         <div class="image-part">
-          <figure class="circle green"></figure>
-          <svg class="main-icon luxury">
+          <figure
+            class="circle green"
+            aria-hidden="true"
+            focusable="false"
+          ></figure>
+          <svg class="main-icon luxury" role="img" aria-label="Luxury icon">
             <use href="/public/img/icons.svg#icon-luxury" />
           </svg>
         </div>
@@ -73,7 +101,12 @@
               the enhanced comfort of a luxury rental and arrive in style.
             </p>
           </div>
-          <button class="btn-more luxury" type="button" name="learn-more">
+          <button
+            class="btn-more luxury"
+            type="button"
+            name="learn-more"
+            aria-label="Learn more about Luxury"
+          >
             Learn More
           </button>
         </div>

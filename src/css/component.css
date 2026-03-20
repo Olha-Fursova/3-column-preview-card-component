@@ -2,14 +2,14 @@
 
 .section-name {
   font-family: var(--main-font);
-  font-size: 40px;
+  font-size: 4rem;
   line-height: 120%;
   letter-spacing: 0;
   font-weight: 600;
 }
 
 .section-description {
-  font-size: 15px;
+  font-size: 1.5rem;
   line-height: 165%;
   letter-spacing: 0;
   font-weight: 300;
@@ -19,22 +19,22 @@
 /* Icons */
 
 .main-icon {
-  width: 44px;
+  width: 4.4rem;
   z-index: 2;
 }
 
 .main-icon.sedan {
-  height: 20px;
+  height: 2rem;
   fill: var(--gold-light);
 }
 
 .main-icon.suv {
-  height: 24px;
+  height: 2.4rem;
   fill: var(--cyan-light);
 }
 
 .main-icon.luxury {
-  height: 18px;
+  height: 1.8rem;
   fill: var(--green-light);
 }
 
@@ -44,8 +44,8 @@
   left: 0;
   z-index: 1;
 
-  width: 40px;
-  height: 40px;
+  width: 4rem;
+  height: 4rem;
   background-color: var(--black);
   opacity: 0.2;
   border-radius: 50%;
@@ -54,14 +54,14 @@
 /* Buttons */
 
 .btn-more {
-  height: 48px;
-  padding: 8px 32px;
+  height: 4.8rem;
+  padding: 0.8rem 3.2rem;
   background-color: var(--white);
   border-radius: 25px;
   border: 2px solid var(--white);
 
   font-family: var(--sub-font);
-  font-size: 15px;
+  font-size: 1.5rem;
   line-height: 165%;
   letter-spacing: 0;
   font-weight: 400;
@@ -94,4 +94,11 @@
 .btn-more.luxury:hover,
 .btn-more.luxury:focus {
   color: var(--white);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn-more {
+    transition-duration: 50ms;
+    /* transition: background-color 0ms linear, color 0ms linear; */
+  }
 }
