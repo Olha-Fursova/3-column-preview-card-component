@@ -16,7 +16,7 @@ A three-element component with cards describing three types of cars.
 ## Overview
 
 ### Screenshot
-![Screenshot](/img/3-column-card-image.png)
+![Screenshot](/public/img/3-column-card-image.png)
 
 ### Main task
 
