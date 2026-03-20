@@ -16,7 +16,7 @@
 
 ### Зображення
 
-![Recipe page](/img/3-column-card-image.png)
+![Recipe page](/public/img/3-column-card-image.png)
 
 ### Опис завдання
 
