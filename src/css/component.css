@@ -1,0 +1,97 @@
+/* Text */
+
+.section-name {
+  font-family: var(--main-font);
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0;
+  font-weight: 600;
+}
+
+.section-description {
+  font-size: 15px;
+  line-height: 165%;
+  letter-spacing: 0;
+  font-weight: 300;
+  opacity: 0.75;
+}
+
+/* Icons */
+
+.main-icon {
+  width: 44px;
+  z-index: 2;
+}
+
+.main-icon.sedan {
+  height: 20px;
+  fill: var(--gold-light);
+}
+
+.main-icon.suv {
+  height: 24px;
+  fill: var(--cyan-light);
+}
+
+.main-icon.luxury {
+  height: 18px;
+  fill: var(--green-light);
+}
+
+.circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  width: 40px;
+  height: 40px;
+  background-color: var(--black);
+  opacity: 0.2;
+  border-radius: 50%;
+}
+
+/* Buttons */
+
+.btn-more {
+  height: 48px;
+  padding: 8px 32px;
+  background-color: var(--white);
+  border-radius: 25px;
+  border: 2px solid var(--white);
+
+  font-family: var(--sub-font);
+  font-size: 15px;
+  line-height: 165%;
+  letter-spacing: 0;
+  font-weight: 400;
+
+  transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+}
+
+.btn-more:hover,
+.btn-more:focus {
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.btn-more.sedan {
+  color: var(--gold-dark);
+}
+
+.btn-more.suv {
+  color: var(--cyan-dark);
+}
+
+.btn-more.luxury {
+  color: var(--green-dark);
+}
+
+.btn-more.sedan:hover,
+.btn-more.sedan:focus,
+.btn-more.suv:hover,
+.btn-more.suv:focus,
+.btn-more.luxury:hover,
+.btn-more.luxury:focus {
+  color: var(--white);
+}

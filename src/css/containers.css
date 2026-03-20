@@ -1,0 +1,87 @@
+.main {
+  width: 100%;
+  max-width: 608px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  overflow: hidden;
+
+  color: var(--white);
+}
+
+.section {
+  height: 442px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 48px;
+}
+
+.buttom-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.sedan-section {
+  background-color: var(--gold-dark);
+}
+
+.suv-section {
+  background-color: var(--cyan-dark);
+}
+
+.luxury-section {
+  background-color: var(--green-dark);
+}
+
+.image-part {
+  width: 64px;
+  height: 40px;
+
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* Tablet */
+
+@media screen and (min-width: 768px) {
+  .section {
+    height: 391px;
+    padding: 50px 80px;
+  }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1440px) {
+  .main {
+    max-width: 921px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .section {
+    height: 500px;
+    padding: 47.5px;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .buttom-container {
+    gap: 80px;
+  }
+}

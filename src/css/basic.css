@@ -1,0 +1,18 @@
+body {
+  width: 100vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--grey);
+  font-family: var(--sub-font);
+
+  padding: 88px 24px;
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    height: 100vh;
+  }
+}
